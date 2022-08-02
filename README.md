@@ -40,8 +40,8 @@ As a user of the application,you will be able to :
 ### Technology  Used
 * REACT - Which was used to make the UI of the page
 * HTML - which was used to develop the structure off the pages.
-* CSS - which was used to style the User Interface.
-
+* CSS - which was used to style the User Interface
+* Firebase - which was used for the back-end
 * Async Await - which was used to access the exchange rates API and DOM scripts
 [Go Back to the top](#A-App)
 ## Known Bugs
