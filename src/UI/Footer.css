@@ -10,7 +10,8 @@ body{
 }
 hr{
     width: 80%;
-    margin: 0 auto;
+    margin: 2rem auto;
+	margin-top: 0;
 }
 .container{
 	max-width: 1170px;

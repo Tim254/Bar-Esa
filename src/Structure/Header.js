@@ -1,11 +1,9 @@
 import { Fragment } from "react";
-import { NavLink } from "react-router-dom";
-import drinksImage from "../assetsUI/drinksImage.jpg";
+import drinksImage from "../AssetsUI/drinksImage.jpg"
 
 import classes from "./Header.module.css";
 
 import CartButton from "./CartButton";
-import AboutUs from "../SitePages/AboutUs";
 
 const Header = (props) => {
   return (
@@ -17,7 +15,7 @@ const Header = (props) => {
         <nav className={classes.navbar}>
           <ul>
             <li>
-              <NavLink href="#">About</NavLink>   
+              <a href="#">About</a>   
             </li>
             <li>
                 <a href="#">Services</a>

@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "./Structure/Header";
 import Drinks from "./Drinks/Drinks";
 import Cart from "./Cart-Items/Cart";
@@ -16,7 +15,6 @@ function App() {
     setCartVisible(false);
   };
   return (
-    <Router>
       <CartProvider>
         {cartIsVisible && <Cart onClose={hideCartHandler} />}
         <Header onShowCart={showCartHandler} />
@@ -25,7 +23,7 @@ function App() {
         </main>
         <Footer/>
       </CartProvider>
-    </Router>
+
   );
 }
 
